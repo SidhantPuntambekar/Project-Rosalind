@@ -21,7 +21,7 @@
 # -------------
 # 20 12 17 21
 
-def DNA(dataSet):
+def countBases(dataSet):
   a = 0
   c = 0
   g = 0
@@ -37,4 +37,4 @@ def DNA(dataSet):
       t += 1
   print (str(a) + ' ' + str(c) + ' ' + str(g) + ' ' + str(t))
 
-DNA("AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC")
+countBases("AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC")
