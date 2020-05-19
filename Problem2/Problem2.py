@@ -1,5 +1,5 @@
 #Sidhant Puntambekar
-#Project-Rosalind Problem 1 Problem Statement:
+#Project-Rosalind Problem 2 Problem Statement:
 
 # RNA Transcription
 # =================
