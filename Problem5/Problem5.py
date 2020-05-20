@@ -54,11 +54,11 @@ def parse_FASTA(FASTA_File):
         
     return resultsDictionary
 
-def gc_content(s):
-    n = len(s)
+def gc_content(DNA):
+    n = len(DNA)
     m = 0
 
-    for c in s:
+    for c in DNA:
         if c == 'G' or c == 'C':
             m += 1
 
